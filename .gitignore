@@ -1,0 +1,91 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Docker volumes and data
+data/
+volumes/
+postgres_data/
+n8n_data/
+
+# Logs
+*.log
+logs/
+docker-compose.override.yml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Node.js (if using direct installation)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using Python installation)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Backup files
+backup/
+*.sql
+*.dump
+
+# Ngrok configuration (may contain tokens)
+.ngrok2/
+ngrok.yml
+
+# Cloudflare tunnel credentials
+*.pem
+*.json
+
+*.txt
+*.png
+
+# Local configuration overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Documentation with personal URLs
+README-local.md
+SETUP-local.md
